@@ -1,0 +1,34 @@
+=============== Feb 25, 2019 (+07) ===============
+17:30:52.506731 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:30:52.509189 db@open opening
+17:30:52.509527 version@stat F·[] S·0B[] Sc·[]
+17:30:52.509761 db@janitor F·2 G·0
+17:30:52.509806 db@open done T·588.483µs
+=============== Feb 26, 2019 (+07) ===============
+10:29:30.403085 memdb@flush N·29658 S·3MiB
+10:29:30.431166 memdb@flush created L0@3 N·29658 S·777KiB "n:\x00..ail,v23975":"version,v1"
+10:29:30.431231 version@stat F·[1] S·777KiB[777KiB] Sc·[0.25]
+10:29:30.431659 memdb@flush committed F·1 T·28.290432ms
+10:29:30.432706 journal@remove removed @1
+11:47:30.615627 memdb@flush N·28968 S·3MiB
+11:47:30.640257 memdb@flush created L0@5 N·28968 S·723KiB "n:\x00..ail,v34772":"n:\xff..ail,v35345"
+11:47:30.640313 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+11:47:30.641586 memdb@flush committed F·1 T·25.729331ms
+11:47:30.642449 journal@remove removed @2
+11:48:04.924371 table@compaction L0·2 -> L1·0 S·1MiB Q·58870
+11:48:04.954111 table@build created L1@6 N·14220 S·852KiB "n:\x00..ail,v34772":"version,v1"
+11:48:04.954177 version@stat F·[0 1] S·852KiB[0B 852KiB] Sc·[0.00 0.01]
+11:48:04.954408 table@compaction committed F-1 S-648KiB Ke·0 D·44406 T·29.92892ms
+11:48:04.954617 table@remove removed @5
+11:48:04.954903 table@remove removed @3
+13:50:30.813762 memdb@flush N·28827 S·3MiB
+13:50:30.838710 memdb@flush created L0@8 N·28827 S·710KiB "n:\x00..ver,v68369":"n:\xff..ail,v84649"
+13:50:30.838763 version@stat F·[1 1] S·1MiB[710KiB 852KiB] Sc·[0.25 0.01]
+13:50:30.839142 memdb@flush committed F·1 T·25.14522ms
+13:50:30.839827 journal@remove removed @4
+13:51:09.520504 table@compaction L0·1 -> L1·1 S·1MiB Q·87788
+13:51:09.551707 table@build created L1@9 N·19930 S·1MiB "n:\x00..ail,v34772":"version,v1"
+13:51:09.551764 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+13:51:09.551950 table@compaction committed F-1 S-361KiB Ke·0 D·23117 T·31.356729ms
+13:51:09.552129 table@remove removed @8
+13:51:09.552393 table@remove removed @6
